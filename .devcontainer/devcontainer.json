@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "rub_cdspace",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
   "postCreateCommand": "sudo apt update && sudo apt install -y tree && curl -LsSf https://astral.sh/uv/install.sh | sh",
   "customizations": {}
