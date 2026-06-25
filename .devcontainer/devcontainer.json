@@ -1,16 +1,6 @@
 {
-  // Project name shown in VS Code when Codespace loads
-  "name": "Forecasting",
-
-  // Python version — change tag to switch versions (3.9, 3.10, 3.11, 3.12)
+  "name": "rub_cdspace",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-
-  // Installs Poetry, then installs dependencies from pyproject.toml
-  "postCreateCommand": "pip install poetry && poetry install --no-root",
-
-  "customizations": {
-    "vscode": {
-      "extensions": ["ms-python.python"]
-    }
-  }
+  "postCreateCommand": "sudo apt update && sudo apt install -y tree && curl -LsSf https://astral.sh/uv/install.sh | sh",
+  "customizations": {}
 }
